@@ -12,4 +12,5 @@ p {
 #header {
   width: 100rem;
   max-height: 25rem;
+  object-fit: cover;
 }

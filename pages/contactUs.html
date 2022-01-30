@@ -15,12 +15,12 @@
 </head>
 
 <body>
-    <header>
+    <div class="container-fluid">
         <div class="row mh-100">
             <img src="https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000_960_720.jpg" alt="contact-us"
-                class="d-flex" id="header">
+                class="img-fluid col-lg-12" id="header">
         </div>
-    </header>
+    </div>
     <nav id="navBar" class="navbar navbar-light navbar-expand-md py-0">
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLink" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,20 +45,20 @@
             <div class="col-lg-5">
                 <h3 class="my-lg-5">Contact Us</h3>
                 <ul>
-                    <li>Email: <a href="mailto: fashiontrends@gmail.com">fashiontrends@gmail.com</a></li>
-                    <li class="mt-5">Phone Number: <a href="tel:+1 (647)-234-5678">+1 (647)-234-5678</a></li>
+                    <li>Email: <a href="mailto:fashiontrends@gmail.com">fashiontrends@gmail.com</a></li>
+                    <li class="mt-5">Phone Number: <a href="tel:+1(647)-234-5678">+1 (647)-234-5678</a></li>
                 </ul>
             </div>
             <div id="userContact" class="col-lg-7">
                 <h3 class="text-center my-lg-6">Let's Connect!</h3>
-                <form action="" method="post">
+                <form action="./submit" method="post">
                     <div class="form-row">
-                        <div class="form-group col">
+                        <div class="form-group col-lg-6 col-sm-12">
                             <label for="FirstName">First Name:</label>
                             <input type="text" name="firstName" id="FirstName" placeholder="First Name"
                                 class="form-control" required>
                         </div>
-                        <div class="col">
+                        <div class="col-sm-12 col-lg-6">
                             <label for="LastName">Last Name:</label>
                             <input type="text" name="lastName" id="LastName" placeholder="Last Name"
                                 class="form-control" required>
